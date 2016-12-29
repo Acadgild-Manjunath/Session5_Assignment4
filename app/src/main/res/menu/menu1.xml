@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+
+<group android:id="@+id/grp1" android:checkableBehavior="none" android:enabled="true">
+    <item android:id="@+id/item1"
+        android:title="Action1">
+    </item>
+
+
+    <item android:id="@+id/item2"
+        android:title="Action2">
+    </item>
+
+
+    <item android:id="@+id/item3"
+        android:title="Action3">
+    </item>
+</group>
+</menu>
