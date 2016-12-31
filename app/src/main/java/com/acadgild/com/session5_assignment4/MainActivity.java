@@ -48,15 +48,10 @@ public class MainActivity extends AppCompatActivity {
       //  Window window = this.getWindow();
         //window.setNavigationBarColor(Color.BLACK);
        //  window.setStatusBarColor(Color.BLACK);
-        Context wrapper = new ContextThemeWrapper(this, R.style.MyPopupMenu);
-        PopupMenu popupMenu = new PopupMenu(wrapper, v);
-
-        menu.setHeaderTitle("Menu Header");
-
+        menu.setHeaderTitle("Context Menu");
 
         MenuInflater inflater = getMenuInflater();
         inflater.inflate(R.menu.menu1, menu);
-
 
 
         // return true;

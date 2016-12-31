@@ -14,7 +14,7 @@
     <TextView android:id="@+id/txtView1"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="Long press below anywhere on the screen for Context Menu"
+        android:text="@string/text"
         android:textSize="20dp"/>
 </RelativeLayout>
 
